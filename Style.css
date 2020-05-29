@@ -1,0 +1,114 @@
+/* CSS Document */
+
+#headerimg{
+	  display: block;
+  margin-left: auto;
+  margin-right: auto;
+margin-bottom: 0em;;
+	height: 27em;
+	width: 75em;
+}
+.close {
+/*
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+*/
+	float: right;
+}
+
+.close:hover {
+  background-color: #f44336;
+  color: white;
+}
+	#Input{
+
+	 margin: 0;
+	 width: 85%;
+	 padding: 10px;
+	 float: left;
+	 font-size: 16px;
+	 margin-left: 4em;
+		text-align: center;
+		margin-top:0.2em;
+		border-width: 3px;
+		border-color:#FF7600;
+}
+input[type="text"]::placeholder {  
+                
+                text-align: center; 
+            } 
+
+.addButton{
+ width:1.5em;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+  background: #FF7600;
+	margin-left:0.05em;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+	margin-top:0.1em;
+	border-radius:2.5em;
+}
+
+.heading{
+text-align: center;	
+	
+}
+
+
+.card{
+
+height:auto;
+	padding-top:1.250em;
+width:28em;
+text-align:left;
+	background-color: aquamarine;
+padding-left:1em;
+	padding-bottom: 1em;
+	padding-right:0;
+
+}
+.column {
+  float: left;
+  width: 35em;
+
+}
+.row {margin-left:9em;
+	
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.Lists{
+text-align:left;
+	list-style-type: none;
+	margin-left: 0;
+	margin-right:auto;
+	padding:0;
+	
+}
+
+.Lists li{
+	border-width: 2px;
+	border-color:black;
+	font-size: 30px;
+	color: black;
+	margin-left: auto;
+	margin-right:auto;
+	 word-wrap: break-word;
+	background-color: beige;
+	margin-bottom: 0.2em;
+	margin-right:0.3em;
+	padding-left:0.2em;
+	cursor: pointer;
+}
