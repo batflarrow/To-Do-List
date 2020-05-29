@@ -8,6 +8,17 @@ margin-bottom: 0em;;
 	height: 65%;
 	width: 75%;
 }
+@media only screen and (max-width: 600px) {
+	
+	.heading{
+		text-align: center;	
+	font-size:7px;
+	padding:2px;
+	}	
+	li{
+		font-size:5px;
+	}
+}
 
 
 .close {
@@ -62,14 +73,7 @@ text-align: center;
 	font-size:150%;
 	padding:0;
 }
-@media only screen and (max-width: 600px) {
-	
-	.heading{
-		text-align: center;	
-	font-size:12px;
-	padding:0;
-	}	
-}
+
 
 .card{
 height:auto;
