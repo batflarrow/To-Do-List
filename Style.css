@@ -59,9 +59,17 @@ input[type="text"]::placeholder {
 
 .heading{
 text-align: center;	
-	
+	font-size:150%;
+	padding:0;
 }
-
+@media only screen and (max-width: 600px) {
+	
+	.heading{
+		text-align: center;	
+	font-size:12px;
+	padding:0;
+	}	
+}
 
 .card{
 height:auto;
@@ -73,7 +81,7 @@ padding-left:1em;
 	padding-bottom: 1em;
 	padding-right:0;
 min-width:25%;
-	font-size:0.8em;
+
 }
 .column {
 	text-align: center;
