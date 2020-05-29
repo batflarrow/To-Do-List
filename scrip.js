@@ -8,6 +8,7 @@ if (value === '') {
  else {
 var newli= document.createElement("li");
 newli.innerHTML=value;
+ newli.style.fontSize="13px";
 newli.setAttribute("title","Double Click On Me When Completed")
 newli.addEventListener("dblclick", addToSecondList);
 document.getElementById("list1").appendChild(newli);}
@@ -20,6 +21,7 @@ function addToSecondList(event){
 	var firstList=document.getElementById("list1");
 	var newli= document.createElement("li");
 	newli.innerHTML = event.target.innerHTML;
+	newli.className="listsize";
 	newli.style.textDecoration='line-through';
 	newli.setAttribute("title","Double Click To remove and Click to send back to Undergoing task")
 	newli.addEventListener("dblclick", deleteFromSecondList);
