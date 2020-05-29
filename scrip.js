@@ -9,7 +9,7 @@ if (value === '') {
 var newli= document.createElement("li");
 newli.innerHTML=value;
 newli.setAttribute("title","Double Click On Me When Completed")
-newli.addEventListener("click", addToSecondList);
+newli.addEventListener("dblclick", addToSecondList);
 document.getElementById("list1").appendChild(newli);}
 document.getElementById("Input").value="";	
 }	
@@ -22,7 +22,7 @@ function addToSecondList(event){
 	newli.innerHTML = event.target.innerHTML;
 	newli.style.textDecoration='line-through';
 	newli.setAttribute("title","Double Click To remove and Click to send back to Undergoing task")
-	newli.addEventListener("click", deleteFromSecondList);
+	newli.addEventListener("dblclick", deleteFromSecondList);
 	newli.addEventListener("drag",backToFirstList)
 	secondList.appendChild(newli);
 	firstList.removeChild(event.target);
