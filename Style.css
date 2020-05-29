@@ -8,18 +8,23 @@ margin-bottom: 0em;;
 	height: 65%;
 	width: 75%;
 }
+body{
+
+	min-width: 1000px;
+	
+}
 @media only screen and (max-width: 800px) {
 	
-	.heading{
+	h1{
 		text-align: center;	
-	font-size:7px;
+	font-size:px;
 	padding:2px;
 	}	
 	li{
 		font-size:5px;
 	}
 	h3{
-		font-size:4px;
+		font-size:15px;
 	}
 }
 
@@ -87,7 +92,6 @@ text-align:left;
 padding-left:1em;
 	padding-bottom: 1em;
 	padding-right:0;
-min-width:25%;
 
 }
 .column {
