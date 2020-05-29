@@ -8,7 +8,7 @@ if (value === '') {
  else {
 var newli= document.createElement("li");
 newli.innerHTML=value;
-	 newli.setAttribute("title","Double Click On Me When Completed")
+newli.setAttribute("title","Double Click On Me When Completed")
 newli.addEventListener("click", addToSecondList);
 document.getElementById("list1").appendChild(newli);}
 document.getElementById("Input").value="";	
